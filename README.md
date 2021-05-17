@@ -1,1 +1,1 @@
-# Waypoint Global Planner
+# Waypoints Global Planner
