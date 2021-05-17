@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>waypoints_global_planner</name>
+  <version>0.0.0</version>
+  <description>The waypoints_global_planner package</description>
+  <maintainer email="balagct@gmail.com">Balamurugan Kandan</maintainer>
+  <license>MIT</license>
+  <author email="balagct@gmail.com">Balamurugan Kandan</author>
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>base_local_planner</depend>
+  <depend>costmap_2d</depend>
+  <depend>geometry_msgs</depend>
+  <depend>nav_core</depend>
+  <depend>nav_msgs</depend>
+  <depend>pluginlib</depend>
+  <depend>roscpp</depend>
+  <depend>tf</depend>
+  <exec_depend>global_planner</exec_depend>
+  <exec_depend>move_base</exec_depend>
+  <export>
+    <nav_core plugin="${prefix}/bgp_plugin.xml" />
+  </export>
+</package>

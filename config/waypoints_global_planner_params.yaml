@@ -1,0 +1,6 @@
+planner_frequency: 0.0
+planner_patience: 1.0
+base_global_planner: "waypoints_global_planner/WaypointsGlobalPlanner"
+
+WaypointsGlobalPlanner:
+  map_frame: "map"

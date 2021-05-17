@@ -1,0 +1,3 @@
+[submodule "scripts/path_planning"]
+	path = scripts/path_planning
+	url = https://github.com/balamuruganky/path_planning

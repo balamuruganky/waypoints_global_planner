@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+	<arg name="trajectory_type"  default="dubins" doc="opt: dubins, circle, ellipse, bezier, bezier_spline, cubic_spline"/>
+	<arg name="yaml_file_path"  default="waypoints_path/waypoints.yaml" doc="opt: yaml file path"/>
+    <!--  ************** Reference trajectory generation **************  -->
+    <node name="yaml_filepath_node" pkg="waypoints_global_planner" type="publish_yaml.py" output="screen">
+        <param name="trajectory_type" value="$(arg trajectory_type)" />
+        <param name="yaml_file_path" value="$(arg yaml_file_path)" />
+    </node>
+</launch>
