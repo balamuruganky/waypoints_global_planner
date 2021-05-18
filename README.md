@@ -29,6 +29,8 @@ It is assumed that catkin workspace is available already to compile.
 
 ## How to Launch
 
+Please refer the YAML file format [here](waypoints_path/waypoints.yaml)
+
 Set the base_global_planner parameter in Move Base navigation stack and publish the path using either of the listed launch files
   - roslaunch waypoints_global_planner desired_path_provider.launch
   - roslaunch waypoints_global_planner yaml_file_path_provider.launch
