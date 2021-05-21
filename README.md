@@ -17,6 +17,7 @@ Python path planner shall create waypoints based on user input points. Please re
 It is assumed that catkin workspace is available already to compile.
   - cd catkin_ws/src
   - git clone https://github.com/balamuruganky/waypoints_global_planner
+  - git submodule update --init --recursive
   - cd ..
   - catkin_make
 
