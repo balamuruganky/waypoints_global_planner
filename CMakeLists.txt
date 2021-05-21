@@ -13,7 +13,6 @@ find_package(catkin REQUIRED COMPONENTS
   pluginlib
   roscpp
   tf
-  visualization_msgs
 )
 
 # pkg-config support
@@ -38,7 +37,6 @@ catkin_package(
     pluginlib
     roscpp
     tf
-    visualization_msgs
 )
 
 add_library(waypoints_global_planner src/waypoints_global_planner.cpp)
