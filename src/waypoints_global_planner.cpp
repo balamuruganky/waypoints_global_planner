@@ -94,7 +94,7 @@ bool WaypointsGlobalPlanner::makePlan(const geometry_msgs::PoseStamped& start_po
 {
   plan_pub_.publish(path_);
   plan = path_.poses;
-  ROS_INFO("Published global plan");
+  //ROS_INFO("Published global plan");
   return true;
 }
 //
