@@ -7,7 +7,7 @@ from path_planning.Line import Line
 from path_planning.Ellipse import Ellipse
 
 DUBINS_POINTS = [[0,0],[3,5]]
-POINTS = [[0,0],[-1,-2],[10.5, -4.5],[5,6],[5,15]]
+POINTS = [[0,0],[1,-2],[10.5,-4.5],[5,6],[10,15],[25,30]]
 ELLIPSE_POINTS = [[0,0],[1,2],[3,1]]
 CIRCLE_POINTS  = [[4,4],[6,9],[9,6]]
 ORIENTATION = [[180, 90]]

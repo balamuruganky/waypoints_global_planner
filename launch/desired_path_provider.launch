@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <launch>
-	<arg name="trajectory_type"  default="line" doc="opt: dubins, circle, ellipse, bezier, bezier_spline, cubic_spline, line"/>
+	<arg name="trajectory_type"  default="cubic_spline" doc="opt: dubins, circle, ellipse, bezier, bezier_spline, cubic_spline, line"/>
     <!--  ************** Reference trajectory generation **************  -->
     <node name="desired_path_node" pkg="waypoints_global_planner" type="publish_path.py" output="screen">
         <param name="trajectory_type" value="$(arg trajectory_type)" />
